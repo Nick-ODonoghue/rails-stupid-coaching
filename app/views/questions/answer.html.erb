@@ -1,0 +1,11 @@
+<ol>
+<h2><%= params[:question] %></h2>
+<h2>-You</h2>
+</ol>
+
+<ol class="answer">
+<h2> <%= @answer %> </h2>
+<h2>-Coach</h2>
+</ol>
+
+<%= link_to 'Ask a new question', ask_path, class: "link" %>
