@@ -49,3 +49,7 @@ ol {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+.wrapper {
+  display: flex;
+}
